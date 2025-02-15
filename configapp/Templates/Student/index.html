@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uy ishi</title>
+</head>
+<body>
+{% for item in Student%}  <!-- Student o'rniga Kurs qoysa-->
+    <p>{{item.full_name}}</p> <!--<p>{{item.title}}</p>-->
+    <p>{{item.phone_number}}</p>  <!--<p>{{item.description}}</p>-->
+    <p>{{item.kurs}}</p>
+{% endfor %}
+</body>
+</html>
